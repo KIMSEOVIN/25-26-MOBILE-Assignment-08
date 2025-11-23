@@ -1,0 +1,10 @@
+# 윈도우 사용자
+desktop.ini
+Thumbs.db
+node_modules
+
+# 맥 사용자
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes

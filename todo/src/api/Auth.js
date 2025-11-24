@@ -6,10 +6,11 @@ export const login = (email, password) => {
           success: true,
           userId: 1,
           email: email,
+          name: "김서빈",
           message: "환영합니다",
         });
       } else {
-        reject(new Error("정답은 1234, 1234요"))
+        reject(new Error("아이디는 1234, 비번도 1234요"))
       }
     }, 2000);
   });
